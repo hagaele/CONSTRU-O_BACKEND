@@ -31,7 +31,11 @@ router.get('/notaA1', (req, res, next) => {
 })
 
 //calcula a nota do A2
-
+router.get("/calculadora/notaA2", (req,res,next) =>{
+    const exercicio = parseFloat(req.query.exercicio)
+    const trabalho = parseFloat(req.query.trabalho)
+    const prova = parseFloat(req.query.prova)
+})
 
 
 
